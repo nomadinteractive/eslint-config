@@ -20,7 +20,8 @@
         "import/no-unresolved": [2, { "ignore": ["electron"] }],
         "react/jsx-no-bind": 0,
         "react/prefer-stateless-function": 0,
-        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+        "semi": ["error", "never"]
     },
     "plugins": [
         "import",
