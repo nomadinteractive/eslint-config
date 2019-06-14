@@ -1,0 +1,22 @@
+{
+    "name": "eslint-project",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "clean": "eslint --ext .js --ext .jsx --ext .json .; flow check; exit 0"
+    },
+    "dependencies": {
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "runtime-types": "^1.0.7"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.7.0",
+        "eslint-plugin-unicorn": "^8.0.2",
+        "flow-bin": "^0.71.0"
+    }
+}
