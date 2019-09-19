@@ -46,7 +46,7 @@
         "flowtype/union-intersection-spacing": [2, "always"],
         "flowtype/use-flow-type": 1,
         "flowtype/valid-syntax": 1,
-        "unicorn/filename-case": ["error", {"case": "pascalCase"}]
+        "unicorn/filename-case": ["error", {"case": "snakeCase"}]
     },
     "plugins": [
         "import",
