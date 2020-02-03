@@ -1,4 +1,4 @@
-{
+module.exports = {
     "parser": "babel-eslint",
     "extends": [
         "airbnb",
@@ -12,21 +12,23 @@
     },
     "rules": {
         "indent": [2, "tab"],
-        "no-tabs": 0,
+		"no-tabs": 0,
+		"semi": ["error", "never"],
         "prefer-template": 0,
         "consistent-return": 0,
         "comma-dangle": 0,
         "no-use-before-define": 0,
         "max-len": ["error", 120],
         "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
-        "import/no-unresolved": [2, { "ignore": ["electron"] }],
+		"import/no-unresolved": [2, { "ignore": ["electron"] }],
+		"unicorn/filename-case": ["error", {"case": "snakeCase"}]
+		// ReactJS rules
         "react/jsx-indent": [2, "tab"],
         "react/jsx-indent-props": [2, "tab"],
         "react/jsx-no-bind": 0,
         "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
         "react/prefer-stateless-function": 0,
-        "semi": ["error", "never"],
-
+		// FlowJS rules
         "flowtype/boolean-style": [2, "boolean"],
         "flowtype/define-flow-type": 1,
         "flowtype/delimiter-dangle": [2, "never"],
@@ -46,7 +48,6 @@
         "flowtype/union-intersection-spacing": [2, "always"],
         "flowtype/use-flow-type": 1,
         "flowtype/valid-syntax": 1,
-        "unicorn/filename-case": ["error", {"case": "snakeCase"}]
     },
     "plugins": [
         "import",
