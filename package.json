@@ -1,6 +1,6 @@
 {
     "name": "@nomadinteractive/eslint-config",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "index.js",
     "repository": "github:nomadinteractive/eslint-config",
     "author": "Nomad Interactive <hello@nomadinteractive.co>",
