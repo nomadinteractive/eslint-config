@@ -1,11 +1,12 @@
 {
     "name": "@nomadinteractive/eslint-config",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "index.js",
     "repository": "github:nomadinteractive/eslint-config",
     "author": "Nomad Interactive <hello@nomadinteractive.co>",
     "license": "MIT",
     "dependencies": {
+        "babel-eslint": "^10.0.3",
         "eslint": "^4.19.1",
         "eslint-config-airbnb": "^16.1.0",
         "eslint-plugin-flowtype": "^4.6.0",
