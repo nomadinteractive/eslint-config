@@ -21,7 +21,7 @@ module.exports = {
         "max-len": ["error", 120],
         "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
 		"import/no-unresolved": [2, { "ignore": ["electron"] }],
-		"unicorn/filename-case": ["error", {"case": "snakeCase"}]
+		"unicorn/filename-case": ["error", {"case": "snakeCase"}],
 		// ReactJS rules
         "react/jsx-indent": [2, "tab"],
         "react/jsx-indent-props": [2, "tab"],
