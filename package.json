@@ -1,6 +1,6 @@
 {
     "name": "@nomadinteractive/eslint-config",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "main": "index.js",
     "repository": "github:nomadinteractive/eslint-config",
     "author": "Nomad Interactive <hello@nomadinteractive.co>",
@@ -9,13 +9,11 @@
         "babel-eslint": "^10.0.3",
         "eslint": "^6.8.0",
         "eslint-config-airbnb": "^18.0.1",
-        "eslint-plugin-flowtype": "^4.6.0",
         "eslint-plugin-import": "^2.20.1",
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.18.3",
         "eslint-plugin-react-hooks": "^1.7.0",
         "eslint-plugin-unicorn": "^16.0.0",
-        "flow-bin": "^0.117.0",
         "react": "^16.12.0",
         "react-dom": "^16.12.0"
     }
