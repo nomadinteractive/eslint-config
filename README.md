@@ -7,7 +7,6 @@ Plugins enabled:
 - airbnb
 - import
 - react/jsx
-- flow
 - unicorn
 
 ## Install
